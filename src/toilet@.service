@@ -1,0 +1,11 @@
+[Unit]
+Description=FAUST CTF toilet service
+
+[Service]
+ExecStart=-/usr/bin/stdbuf -o0 /srv/toilet/toilet
+WorkingDirectory=/srv/toilet
+StandardInput=socket
+StandardOutput=socket
+User=toilet
+LimitNPROC=100
+LimitCPU=60

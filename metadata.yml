@@ -1,0 +1,10 @@
+name: toilet
+author:
+  - mightymo <mo@mightym0.de>
+packages:
+  - build-essential
+  - libssl-dev
+checker:
+  module: toilet
+  class: ToiletChecker
+  packages:

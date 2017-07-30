@@ -1,17 +1,9 @@
-# Toilet Service
+Toilet
+======
 
-Service for the FAUST CTF 2017.
+This is the source code for the "Toilet" service from [FAUST CTF 2017](https://2017.faustctf.net).
 
-# Install service
+**As it was written for a CTF service, the code is deliberately insecure and contains exploitable bugs. It
+is provided for educational purposes only, do not even think about (re-) using it for anything productive!**
 
-    make install
-
-# Run tests
-
-## Basic Tests
-
-    make test-basic
-
-## Scaling Tests
-
-    make -j2 test-scaling
+The code is released under the ISC License, see LICENSE.txt for details.
